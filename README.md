@@ -20,7 +20,6 @@ Local Machine → AWS S3 (Raw Data) → Python Processing → AWS S3 (Processed 
 - Power BI connects to the processed data using an S3 presigned URL
 
 ---
-
 ## Dataset
 - **Source:** Public U.S. immigration datasets
 - **Data Type:** CSV (aggregated immigration and enforcement statistics)
@@ -32,7 +31,6 @@ Local Machine → AWS S3 (Raw Data) → Python Processing → AWS S3 (Processed 
 Due to dataset size considerations, raw and processed CSV files are not stored directly in this repository.
 
 ---
-
 ## Tools & Technologies
 - **AWS S3**
   - Cloud storage for raw and processed datasets
