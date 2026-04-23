@@ -7,7 +7,6 @@ processed programmatically, and consumed by a BI tool for visualization and insi
 
 The project uses U.S. immigration data to showcase cloud-based data handling, preprocessing, 
 and dashboard creation.
-
 ---
 
 ## Architecture Overview
@@ -18,7 +17,6 @@ Local Machine → AWS S3 (Raw Data) → Python Processing → AWS S3 (Processed 
 - Python is used to read, clean, and preprocess data from S3
 - Cleaned data is uploaded back to S3 programmatically
 - Power BI connects to the processed data using an S3 presigned URL
-
 ---
 ## Dataset
 - **Source:** Public U.S. immigration datasets
@@ -29,7 +27,6 @@ Local Machine → AWS S3 (Raw Data) → Python Processing → AWS S3 (Processed 
   - Processed data uploaded programmatically using Python
 
 Due to dataset size considerations, raw and processed CSV files are not stored directly in this repository.
-
 ---
 ## Tools & Technologies
 - **AWS S3**
@@ -40,7 +37,6 @@ Due to dataset size considerations, raw and processed CSV files are not stored d
 - **Power BI**
   - Data ingestion via presigned S3 URL
   - Interactive dashboards and visual analysis
-
 ---
 
 ## Data Processing (Python)
